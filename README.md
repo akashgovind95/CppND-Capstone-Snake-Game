@@ -29,3 +29,27 @@ In this project, you can build your own C++ application or extend this Snake gam
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
+
+## Additional Functionality
+
+1. Added a command line menu that allows the user a better access to the game.
+2. Added support for maintaining a highscore by saving the highest score so far in a txt file.
+3. Added a special type of food which occurs after every 5 normal type of food. This special food is distinguished by its pink color and gives 5 points instead of 1.
+
+## Rubric Points Addressed
+
+Loops, Functions, I/O:
+1. The project demonstrates an understanding of C++ functions and control structures:    
+      1. main.cpp: lines 11, 18  
+      2. game.cpp: lines 97, 78, 108
+      3. renderer.cpp: lines 53, 85
+2. The project reads data from a file and process the data, or the program writes data to a file:      
+      1. main.cpp: line 36
+      2. game.cpp: lines 12, 56
+3. The project accepts user input and processes the input:      
+      1. main.cpp: line 17
+4. Classes use appropriate access specifiers for class members:    
+      1. game.h: lines 18, 19, 32
+5. The project uses Object Oriented Programming techniques:    
+      1. game.cpp: line 108
+      2. game.h: lines 18, 19, 32, 17
