@@ -38,7 +38,6 @@ In this project, you can build your own C++ application or extend this Snake gam
 
 ## Rubric Points Addressed
 
-Loops, Functions, I/O:
 1. The project demonstrates an understanding of C++ functions and control structures:    
       1. main.cpp: lines 11, 18  
       2. game.cpp: lines 97, 78, 108
